@@ -1,0 +1,23 @@
+{
+  "name": "ui-pinme",
+  "version": "1.0.0",
+  "description": "Project UI PinMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "Web",
+    "Gallery",
+    "Foto"
+  ],
+  "author": "OmenSoft",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "flowbite": "^2.2.1"
+  }
+}
